@@ -1,0 +1,128 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bankis.css" />
+    <link rel="shortcut icon" type="image/png" href="/img/icon.png" />
+    <link rel="stylesheet" href="/css/bootstrap (2).css" />
+
+    <title>BankisApp</title>
+  </head>
+  <body>
+    <main class="container-fluid">
+      <!-- <select name="" id="selectid">
+        <option value="0">select</option>
+      </select> -->
+      <nav>
+        <div class="row">
+          <div class="col-5">
+            <h3>Log in to get started</h3>
+          </div>
+          <div class="col-2">
+            <img src="/img/logo.png" alt="" />
+          </div>
+          <div class="col-5">
+            <div class="col-7 float-end">
+              <form action="" id="formId">
+                <input
+                  class="inp-user inp"
+                  type=""
+                  id="userId"
+                  placeholder="user"
+                />
+                <input
+                  class="inp-pin inp"
+                  type="password"
+                  id="pinid"
+                  placeholder="PIN"
+                />
+                <label for="" class="hiden label_welcome"></label>
+                <button type="submit">
+                  <i class="fa-solid fa-right-long"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="row opacity">
+        <div class="col-10 offset-1">
+          <div class="row p-4">
+            <h7 class="col-6 currentBalance"
+              ><i class="fa-brands fa-cc-visa"></i>
+              <i class="fa-brands fa-cc-mastercard"></i>
+              <i class="fa-brands fa-cc-paypal"></i>
+              <i class="fa-brands fa-cc-apple-pay"></i>
+            </h7>
+            <label class="float-end label-balance col-4"
+              ><b class="totalBalance">$000.000.00</b></label
+            >
+          </div>
+
+          <section class="movement-section row">
+            <div class="col-6 bg-white div-register">
+              <div class="_row">
+                <div></div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="my-2 operation--transfer p-3">
+                <h6>Transfer money</h6>
+                <form action="">
+                  <input class="inp2 input_transfer_to" type="text" />
+                  <input
+                    class="inp3 input_transfer_amount px-2"
+                    type="number"
+                  />
+
+                  <button type="submit" id="btnTransfer" class="a2" href="">
+                    <i class="fa-solid fa-right-long"></i>
+                  </button>
+                </form>
+                <label for="">Transfer to</label>
+                <label for="">Amount</label>
+              </div>
+
+              <div
+                class="my-2 operation--loan p-3"
+                style="background-color: rgb(119, 139, 119)"
+              >
+                <h6>Request loan</h6>
+                <input class="inp2 resquest_Loand_input" type="text" />
+                <button type="submit" class="a2 resquest_Loand_button" href="">
+                  <i class="fa-solid fa-right-long"></i>
+                </button>
+              </div>
+
+              <div class="my-2 operation--close p-3">
+                <h6>Close account</h6>
+                <input class="inp2" type="text" />
+                <input class="inp2" type="text" />
+                <a class="a2" href="">
+                  <i class="fa-solid fa-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="row mt-4 p-3">
+          <label class="col-3 spanin">IN <span class=""> 0000$</span></label>
+          <label class="col-3 spanOut">
+            <span class="col-3"> 0000$</span></label
+          >
+          <span class="col-3 spanInterest"
+            ><strong>INTEREST:</strong> 0000$</span
+          >
+        </div>
+      </section>
+    </main>
+    <script src="/js/BankisApp.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/2881453f92.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
